@@ -1,0 +1,43 @@
+:root{
+    --black:#0B0C10;
+    --dark-gray:#1F2833;
+    --gray:#C5C6C7;
+    --sky:#66FCF1;
+    --green:#45A29E;
+}
+
+body{
+    align-items: center;
+    /* background: -webkit-linear-gradient(left, rgb(188, 188, 188),rgb(86, 82, 82)); */
+}
+h1{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .link-active{
+    color: var(--sky);
+  }
+  
