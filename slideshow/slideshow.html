@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="\image\favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="\slideshow\slideshow_style.css">
+    
     <title>Image Gallery | Slideshow</title>
 </head>
 
@@ -24,40 +25,40 @@
             <li>
                 <a class="link  link-active" href="slideshow\slideshow.html">Slideshow</a>
             </li>
-            <li>
+            <!-- <li>
                 <a class="link" href="/blogs.html">Slideshow Gallary</a>
             </li>
             <li>
                 <a class="link" href="/contact-me.html">Lightbox</a>
-            </li>
+            </li> -->
         </ul>
     </nav>
     
     <div class="slideshow-container">
 
-        <div class="myslides fade">
+        <div class="mySlides fade">
             <div class="numbertext">1 / 5</div>
-            <img src="\image\i-1.jpg" style="width:100%">
+            <img class="imgg" src="\image\i-1.jpg" style="width:100%">
             <div class="text">Caption</div>
         </div>
-        <div class="myslides fade">
+        <div class="mySlides fade">
             <div class="numbertext">2 / 5</div>
-            <img src="\image\i-2.jpg" style="width:100%">
+            <img class="imgg" src="\image\i-2.jpg" style="width:100%">
             <div class="text">Caption</div>
         </div>
-        <div class="myslides fade">
+        <div class="mySlides fade">
             <div class="numbertext">3 / 5</div>
-            <img src="\image\i-3.jpg" style="width:100%">
+            <img class="imgg" src="\image\i-3.jpg" style="width:100%">
             <div class="text">Caption</div>
         </div>
-        <div class="myslides fade">
+        <div class="mySlides fade">
             <div class="numbertext">4 / 5</div>
-            <img src="\image\i-4.jpg" style="width:100%">
+            <img class="imgg" src="\image\i-4.jpg" style="width:100%">
             <div class="text">Caption</div>
         </div>
-        <div class="myslides fade">
+        <div class="mySlides fade">
             <div class="numbertext">5 / 5</div>
-            <img src="\image\i-5.jpg" style="width:100%">
+            <img class="imgg" src="\image\i-5.jpg" style="width:100%">
             <div class="text">Caption</div>
         </div>
 
@@ -69,8 +70,11 @@
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
 
+    <script src="\slideshow\slideshow_js.js"></script>
 </body>
 
 </html>
